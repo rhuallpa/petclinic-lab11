@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author jgomezm
  *
  */
-@SpringBootApplication
 public class PetClinicApplication {
 
 	/**
@@ -20,3 +19,6 @@ public class PetClinicApplication {
 	}
 
 }
+
+
+

@@ -14,7 +14,6 @@ import java.sql.Date;
 @Entity(name = "pets")
 @Data
 public class Pet {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
@@ -38,7 +37,6 @@ public class Pet {
 		this.typeId = type_id;
 		this.ownerId = owner_id;
 		this.birthDate = birthDate;
-
 	}
 
 	public Pet(String name, int type_id, int owner_id, Date birthDate) {
